@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import Header from "./Header";
-import Login from "./Login";
-import Home from "./Home";
-import Payment from "./Payment";
-import Checkout from "./Checkout";
-import Orders from "./Orders";
+import Header from "./Components/Header/Header";
+import Login from "./Components/Login/Login";
+import Home from "./Components/Home/Home";
+import Payment from "./Components/Payment/Payment";
+import Checkout from "./Components/Checkout/Checkout";
+import Orders from "./Components/Orders/Orders";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
